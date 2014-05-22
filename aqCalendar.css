@@ -1,0 +1,80 @@
+#aqCalendarMod1 {
+	font-size: 12px;
+	color: 707578;
+	font-family: 'Tahoma';
+	border: 1px solid #ADBAC7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	background: #fbfbfb;
+	padding: 8px;
+	position: absolute;
+	opacity: 0;
+	z-index: 99999;
+	width: 170px;
+	height: 150px;
+	text-align: center;
+}
+.aqYear {
+	color: 707578;
+}
+.aqToYear {
+	color: #4769A3;
+}
+#aqCalendarWrapMod1 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+#aqCalendarYearMod1, #aqCalendarMonthMod1, #aqCalendarDaysMod1 {
+	border-collapse: collapse;
+	text-align: center;
+	width: 170px;
+}
+#aqCalendarMonthMod1 {
+	opacity: 0;
+	height: 150px;
+}
+#aqCalendarDaysMod1 {
+	opacity: 0;
+}
+#aqCalendarMonthMod1 tr td {
+	width: 50px;
+	height: 27px;
+}
+#aqCalendarYearMod1 tr td, #aqCalendarMonthMod1 tr td, #aqCalendarDaysMod1 tr td {
+	padding: 5px;
+	border-right: 1px solid #DEE4E8;
+	border-top: 1px solid #DEE4E8;
+	text-align: center;
+	cursor: pointer;
+}
+#aqCalendarYearMod1 tr td:hover, #aqCalendarMonthMod1 tr td:hover, #aqCalendarDaysMod1 tr td:hover {
+	color: #b2275e;
+}
+#aqCalendarYearMod1 tr:first-child td, #aqCalendarMonthMod1 tr:first-child td, #aqCalendarDaysMod1 tr:first-child td {
+	border-top: 0;
+}
+#aqCalendarYearMod1 tr td:last-child, #aqCalendarMonthMod1 tr td:last-child, #aqCalendarDaysMod1 tr td:last-child {
+	border-right: 0;
+}
+.aqYearListMod1 {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DEE4E8;
+	position: relative;
+	height: 14px;
+}
+.aqYearListMod1 div {
+	display: inline-block; 
+	cursor: pointer;
+	color: #4769A3;
+}
+#aqYearLeftMod1 {
+	position: absolute;
+	left: 5px;
+	top: 0;
+}
+#aqYearRightMod1 {
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
