@@ -9,8 +9,6 @@
 	position: absolute;
 	opacity: 0;
 	z-index: 99999;
-	width: 170px;
-	height: 150px;
 	text-align: center;
 }
 .aqYear {
@@ -27,7 +25,7 @@
 #aqCalendarYearMod1, #aqCalendarMonthMod1, #aqCalendarDaysMod1 {
 	border-collapse: collapse;
 	text-align: center;
-	width: 170px;
+	width: 100%;
 }
 #aqCalendarMonthMod1 {
 	opacity: 0;
@@ -37,7 +35,6 @@
 	opacity: 0;
 }
 #aqCalendarMonthMod1 tr td {
-	width: 50px;
 	height: 27px;
 }
 #aqCalendarYearMod1 tr td, #aqCalendarMonthMod1 tr td, #aqCalendarDaysMod1 tr td {
